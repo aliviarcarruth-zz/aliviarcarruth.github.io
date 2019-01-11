@@ -1,6 +1,10 @@
 body    {
     background: #f5d9d5;
     font-family: "Nunito" , sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+      
+      
 }
 .blurb h2 {
     color: #ea1c2c;
@@ -66,6 +70,10 @@ color: red;
     color: rgb(222,192,222); 
 }
 
+.icons2 {
+    color: white;
+}
+
 #subtitle {
     color: #f498b8;
     font-weight: 100;
@@ -74,7 +82,7 @@ color: red;
 }
 
 #footer {
-    color: white;
+    color: #f498b8;
     font-weight: 100;
     
 }
@@ -82,3 +90,15 @@ color: red;
 #heart {
     color: #ea1c2c;
 }
+
+a {
+    color: #f498b8;
+}
+a:hover {
+    color: #f498b8;
+}
+
+.imgs:hover {
+opacity: 0.5;
+}
+
