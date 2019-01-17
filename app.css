@@ -42,6 +42,26 @@ body    {
     font-size: 1.5rem;
 }
 
+#mainNavbar2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    background: rgb(222,192,222);
+}
+
+#mainNavbar2 .nav-link {
+    color: white;
+}
+
+#mainNavbar2 .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavbar2 .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+
 #headingGroup span{
 color: red;
 }
@@ -151,7 +171,9 @@ a:hover {
 
   .project-container img {
     width: 100%;
+   
     border: 5px solid #fff;
+
   }
 
   .project-container {
