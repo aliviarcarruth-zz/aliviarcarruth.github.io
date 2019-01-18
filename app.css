@@ -189,3 +189,102 @@ a:hover {
     text-align: center;
     margin-bottom: 30px;
   }
+
+  .details-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .details-container img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  }
+  @media (min-width: 992px) {
+    .details-container img {
+      width: 50%;
+      margin-bottom: 0;
+    }
+  }
+  @media (min-width: 992px) {
+    .details-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+    }
+  }
+  
+  .project-details p {
+    font-family: "Nunito" , sans-serif;
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 1.3;
+  }
+
+  .project-details h3 {
+    font-family: "Nunito" , sans-serif;
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 1.5rem;
+
+  }
+  @media (min-width: 992px) {
+    .project-details {
+      width: 50%;
+      padding-left: 50px;
+    }
+  }
+  
+  .project-technology {
+    list-style: none;
+    padding: 0;
+  }
+  .project-technology li {
+    display: inline-block;
+    background:rgb(222,192,222);
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .project-links {
+    list-style: none;
+    padding: 0;
+  }
+  .project-links li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .project-links li a {
+    color: #fff;
+    font-size: 1.2rem;
+    -webkit-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+  }
+  .project-links li a:hover {
+    text-decoration: none;
+    color: #f498b8;
+  }
+  .project-links li a i {
+    margin-right: 5px;
+  }
