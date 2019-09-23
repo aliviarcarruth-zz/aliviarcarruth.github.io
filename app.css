@@ -6,6 +6,116 @@ body    {
       
       
 }
+
+.img-uni {
+
+    height:245px;
+    background-image: url("imgs/fictional-uni-screenshot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+
+.img-camp {
+
+    height:245px;
+    background-image: url("imgs/yelpcamp-screenshot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+
+.img-jj {
+
+     height:245px;
+     background-image: url("imgs/jj-screenshot.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     border: 5px solid #fff;
+ }
+
+.img-color {
+
+    height:245px;
+    background-image: url("imgs/colorgame.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+
+.img-blog {
+
+    height:245px;
+    background-image: url("imgs/restfulblog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+.img-todo{
+
+    height:245px;
+    background-image: url("imgs/to-do.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+.img-dating{
+
+    height:245px;
+    background-image: url("imgs/dating.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+.img-dog{
+
+    height:245px;
+    background-image: url("imgs/dayofdogs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+
+.img-sa{
+
+    height:245px;
+    background-image: url("imgs/sa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+.img-yelp-lg{
+
+    height:611px;
+    width: 783px;
+    background-image: url("imgs/yelpCamp-screenshot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+
+.img-wordpress-lg{
+
+    height:611px;
+    width: 783px;
+    background-image: url("imgs/fictional-uni-screenshot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 5px solid #fff;
+}
+
+
 .blurb h2 {
     color: #ea1c2c;
     font-weight: 100;
@@ -168,13 +278,6 @@ a:hover {
   
   .project-container:hover .project-overlay {
     bottom: 0;
-  }
-
-  .project-container img {
-    width: 100%;
-   
-    border: 5px solid #fff;
-
   }
 
   .project-container {
