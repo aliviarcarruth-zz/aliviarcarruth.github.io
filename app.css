@@ -20,7 +20,7 @@ body    {
 .img-camp {
 
     height:245px;
-    background-image: url("imgs/yelpcamp-screenshot.jpg");
+    background-image: url("imgs/yelpCamp-screenshot.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -97,7 +97,7 @@ body    {
 
     height:611px;
     width: 783px;
-    background-image: url("imgs/yelpCamp-screenshot.jpg");
+    background-image: url("imgs/yelpCamp-screenshot2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
