@@ -346,6 +346,7 @@ a:hover {
     color: #ea1c2c;
     font-weight: 100;
     font-size: 1.5rem;
+      padding-top: 20px;
 
   }
   @media (min-width: 992px) {
@@ -354,8 +355,21 @@ a:hover {
       padding-left: 50px;
     }
   }
-  
-  .project-technology {
+
+@media (max-width: 991px) {
+    .img-yelp-lg {
+        width: 100%;
+        padding-left: 50px;
+    }
+}
+@media (max-width: 991px) {
+    .img-wordpress-lg {
+        width: 100%;
+        padding-left: 50px;
+    }
+}
+
+.project-technology {
     list-style: none;
     padding: 0;
   }
@@ -379,7 +393,7 @@ a:hover {
     margin-right: 15px;
   }
   .project-links li a {
-    color: #fff;
+    color: #8b0e77;
     font-size: 1.2rem;
     -webkit-transition: color 0.5s;
     -o-transition: color 0.5s;
